@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  gap: 1rem;
+}
+
+aside, main {
+  border: 1px solid red;
+  height: 100vh;
+}
+
+aside {
+  flex-basis: 25%;
+}
+
+main {
+  flex: 1;
+}

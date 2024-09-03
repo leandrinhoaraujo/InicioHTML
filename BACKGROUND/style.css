@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+}
+
+/* header {
+  height: 650px;
+  border: 7px double red;
+  padding: 16px;
+
+} */
+
+main {
+  /* height: 650px; */
+
+  /* background-color: aqua;
+  background-image: url(http://source.unsplash.com/random);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-attachment: fixed; */
+  
+
+  background: url(https://source.unsplash.com/random) no-repeat center / 100% 100% content-box content-box fixed;
+  /*origin primeiro, depois clip.*/ 
+
+  /* background: linear-gradient(green, yellow, blue);
+  tem o radial tambem */
+
+  /* Background attachment: fixed, scroll, local... muda a forma como fica o papel de parede
+  na pagina, se vai mexer com o texto, ou não.
+  
+  Repeat: se repete ou ñ
+  
+  Origin: de onde ele começa, da borda, do padding etc. | para imagens
+
+  Clip: BACKGROUND TODO, INCLUINDO COLOR.
+  */
+}

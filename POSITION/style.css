@@ -1,0 +1,26 @@
+.box{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+}
+
+.box1 {
+  background-color: red;
+}
+
+/* Relative/absolute/fixed Property
+TOP, RIGHT, BOTTOM, LEFT, Z-INDEX
+*/
+
+/* 
+Z-INDEX CONTROLA CAMADAS, EMPILHAMENTO
+*/
+
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: blue;
+}
